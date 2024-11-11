@@ -1,4 +1,5 @@
 import React from 'react'
+// import logo from './'
 
 const Navbar = () => {
   return (
@@ -10,7 +11,7 @@ const Navbar = () => {
         {/* left box  */}
         <div className='h-full flex justify-center items-center gap-2'>
             <img className='w-[50px] h-[50px] rounded-full'
-            src="./assets/bgWhiteLogo.png" alt="" />
+            src="./assets/img12.png" alt="" />
             <span className="leading-[24px] font-title text-[20px]">Attendance</span>
         </div>
 
