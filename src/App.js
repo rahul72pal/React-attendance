@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="w-[100%] font-title h-[100%] bg-[#000814] text-white">
       {/* <QRScanner/> */}
-      <div className="h-[10vh] border-b-2 border-gray-600">
+      <div className="h-[10vh] border-b-2 py-4 pb-4 border-gray-600">
         <Navbar />
       </div>
       <div className="sm:min-h-[90vh] overflow-auto">
