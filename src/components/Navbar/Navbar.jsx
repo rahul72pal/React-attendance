@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className='
     flex h-full w-full 
-    m-0 p-4 py-4 justify-between items-center
+    m-0 p-4 py-4 gap-2 justify-between items-center
     '>
 
         {/* left box  */}
@@ -16,9 +16,9 @@ const Navbar = () => {
         </div>
 
         {/* right box  */}
-        <div className='h-full flex gap-4 justify-center items-center'>
-            <button className='px-4 py-3 bg-gray-800 rounded-lg text-sm'>Login</button>
-            <button className='px-4 py-3 bg-gray-800 rounded-lg text-sm'>Sign up</button>
+        <div className='h-full flex gap-2 justify-center items-center text-xs'>
+            <button className='px-2 py-3 bg-gray-800 rounded-lg text-xs'>Login</button>
+            <button className='px-2 py-3 bg-gray-800 rounded-lg text-xs'>Sign up</button>
         </div>
 
     </div>
